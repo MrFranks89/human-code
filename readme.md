@@ -62,6 +62,65 @@
   	- saluto il cassiere.
   	- mi dirigo verso casa.
 
+# Gioco del Blackjack
 
+- Regole
+	- PER OGNI figura (J, Q, K), di qualsiasi seme (C, Q, F, P), il valore è =10
+	- SE il valore delle carte in mano è inferiore a 10 il valore degli assi sarà =11
+	- ALTRIMENTI 
+		- il suo valore sarà =1
+	- Una figura + un asso = 21. 21 = Blackjack. Blackjack = vittoria.
 
-  
+- SE sono il banco
+	- Mischio il mazzo di carte
+	- Faccio dividere il mazzo di carte, coperto, all'altro giocatore
+	- La metà inferiore del mazzo viene messa sopra la metà superiore
+	- Do due carte, scoperte, all'altro giocatore
+	- ne metto una coperta ed una scoperta davanti a me
+	- SE il giocatore mi chiede una carta, gliela do.
+	- ALTRIMENTI
+		- il gioco si ferma e scopro la mia seconda carta.
+			- SE la SOMMA delle mie due carte è inferiore a 17 aggiungo carte fino a raggiungere o superare quella cifra.
+			- ALTRIMENTI
+				- se è pari o superiore a 17 posso aggiungere o non aggiungere carte.
+				- FINCHÈ non raggiungo o supero quota 21, aggiungo carte.
+					- SE supero quota 21, ho sballato. E perso la partita.
+					- ALTRIMENTI
+						- ho raggiunto un valore compreso tra 17,5 e 21.
+						- Confronto il risultato delle mie carte con quelle dell'altro giocatore.
+						- SE il valore delle mie carte è più vicino (o uguale) a 21 rispetto all'altro giocatore, ho vinto.
+						- ALTRIMENTI
+							- Ho perso
+	- FINCHÈ il giocatore mi chiede una carta, gliela do.
+	- SE la somma delle sue carte supera il 21, ha sballato e ha perso
+	- ALTRIMENTI
+		- Se smette di chiedermi carte, si conta il valore della somma delle sue carte.
+		- Scopro la mia seconda carta.
+		- SE la SOMMA delle mie due carte è inferiore a 17 aggiungo carte fino a raggiungere o superare quella cifra.
+			- ALTRIMENTI
+				- se è pari o superiore a 17 posso aggiungere o non aggiungere carte.
+				- FINCHÈ non raggiungo o supero quota 21, aggiungo carte.
+					- SE supero quota 21, ho sballato. E perso la partita.
+					- ALTRIMENTI
+						- ho raggiunto un valore compreso tra 17,5 e 21.
+						- Confronto il risultato delle mie carte con quelle dell'altro giocatore.
+						- SE il valore delle mie carte è più vicino (o uguale) a 21 rispetto all'altro giocatore, ho vinto.
+						- ALTRIMENTI
+							- Ho perso
+- ALTRIMENTI
+	- sono l'altro giocatore
+	- Divido il mazzo, coperto, che mi porge il banco.
+	- prendo le due carte scoperte che mi da il banco.
+	- SE il valore delle due carte è inferiore a 21 chiedo un'altra carta
+	- ALTRIMENTI
+		- SE il valore è pari a 21 ho fatto blackjack
+			- ALTRIMENTI
+				- Ho sballato e perso la partita
+	- FINCHÈ non raggiungo o supero quota 21, aggiungo carte.
+		- SE supero quota 21, ho sballato. E perso la partita.
+		- ALTRIMENTI
+			- ho raggiunto un valore compreso tra 2 e 21.
+			- Confronto il risultato delle mie carte con quelle del banco.
+			- SE il valore delle mie carte è più vicino (o uguale) a 21 rispetto al banco, ho vinto.
+			- ALTRIMENTI
+				- Ho perso
