@@ -77,28 +77,38 @@
 	- La metà inferiore del mazzo viene messa sopra la metà superiore
 	- Do due carte, scoperte, all'altro giocatore
 	- ne metto una coperta ed una scoperta davanti a me
-	- SE il giocatore mi chiede una carta, gliela do.
+	- SE il giocatore mi chiede una carta, 
+		- gliela do.
 	- ALTRIMENTI
-		- il gioco si ferma e scopro la mia seconda carta.
-			- SE la SOMMA delle mie due carte è inferiore a 17 aggiungo carte fino a raggiungere o superare quella cifra.
+		- il gioco si ferma 
+		- scopro la mia seconda carta.
+		- SE la SOMMA delle mie due carte è inferiore a 17
+			- aggiungo carte fino a raggiungere o superare quella cifra.
 			- ALTRIMENTI
-				- se è pari o superiore a 17 posso aggiungere o non aggiungere carte.
-				- FINCHÈ non raggiungo o supero quota 21, aggiungo carte.
-					- SE supero quota 21, ho sballato. E perso la partita.
-					- ALTRIMENTI
-						- ho raggiunto un valore compreso tra 17,5 e 21.
-						- Confronto il risultato delle mie carte con quelle dell'altro giocatore.
-						- SE il valore delle mie carte è più vicino (o uguale) a 21 rispetto all'altro giocatore, ho vinto.
+				- valore pari o superiore a 17 posso aggiungere o non aggiungere carte.
+				- FINCHÈ non raggiungo o supero quota 21
+					- aggiungo carte.
+						- SE supero quota 21, 
+							- ho sballato. E perso la partita.
 						- ALTRIMENTI
-							- Ho perso
-	- FINCHÈ il giocatore mi chiede una carta, gliela do.
-	- SE la somma delle sue carte supera il 21, ha sballato e ha perso
+							- ho raggiunto un valore compreso tra 17,5 e 21.
+							- Confronto il risultato delle mie carte con quelle dell'altro giocatore.
+								- SE il valore delle mie carte è più vicino (o uguale) a 21 rispetto all'altro giocatore, 
+									- ho vinto
+								- ALTRIMENTI
+									- Ho perso
+	- FINCHÈ il giocatore mi chiede una carta 
+		- gliela do.
+	- SE la somma delle sue carte supera il 21
+		- ha sballato e ha perso
 	- ALTRIMENTI
-		- Se smette di chiedermi carte, si conta il valore della somma delle sue carte.
+		- Smette di chiedermi carte.
+		- Si conta il valore della somma delle sue carte.
 		- Scopro la mia seconda carta.
-		- SE la SOMMA delle mie due carte è inferiore a 17 aggiungo carte fino a raggiungere o superare quella cifra.
+		- SE la SOMMA delle mie due carte è inferiore a 17
+			- aggiungo carte fino a raggiungere o superare quella cifra.
 			- ALTRIMENTI
-				- se è pari o superiore a 17 posso aggiungere o non aggiungere carte.
+				- con somma pari o superiore a 17 posso aggiungere o non aggiungere carte.
 				- FINCHÈ non raggiungo o supero quota 21, aggiungo carte.
 					- SE supero quota 21, ho sballato. E perso la partita.
 					- ALTRIMENTI
@@ -111,16 +121,19 @@
 	- sono l'altro giocatore
 	- Divido il mazzo, coperto, che mi porge il banco.
 	- prendo le due carte scoperte che mi da il banco.
-	- SE il valore delle due carte è inferiore a 21 chiedo un'altra carta
+	- SE il valore delle due carte è inferiore a 21 
+		- chiedo un'altra carta
 	- ALTRIMENTI
-		- SE il valore è pari a 21 ho fatto blackjack
+		- valore pari a 21 e ho fatto blackjack
 			- ALTRIMENTI
 				- Ho sballato e perso la partita
 	- FINCHÈ non raggiungo o supero quota 21, aggiungo carte.
-		- SE supero quota 21, ho sballato. E perso la partita.
+		- SE supero quota 21, 
+			- ho sballato e perso la partita.
 		- ALTRIMENTI
 			- ho raggiunto un valore compreso tra 2 e 21.
 			- Confronto il risultato delle mie carte con quelle del banco.
-			- SE il valore delle mie carte è più vicino (o uguale) a 21 rispetto al banco, ho vinto.
-			- ALTRIMENTI
-				- Ho perso
+				- SE il valore delle mie carte è più vicino (o uguale) a 21 rispetto al banco
+					- ho vinto.
+				- ALTRIMENTI
+					- Ho perso
